@@ -1,0 +1,568 @@
+accept 1
+IP HEADER
+Version & IHL: 45
+TOS 0
+Length: 3C
+ID: FFFFFFE4
+TTL: 40
+Proto: 6
+Source: 192.168.1.12
+Destination: 213.239.198.198
+SPort: 35261
+DPort: 80
+Data:
+
+
+accept 2
+IP HEADER
+Version & IHL: 45
+TOS 0
+Length: 3C
+ID: FFFFFFE5
+TTL: 40
+Proto: 6
+Source: 192.168.1.12
+Destination: 213.239.198.198
+SPort: 35261
+DPort: 80
+Data:
+
+
+accept 3
+IP HEADER
+Version & IHL: 45
+TOS 0
+Length: 3C
+ID: 0
+TTL: 37
+Proto: 6
+Source: 213.239.198.198
+Destination: 192.168.1.12
+SPort: 80
+DPort: 35261
+Data:
+
+
+accept 4
+IP HEADER
+Version & IHL: 45
+TOS 0
+Length: 34
+ID: FFFFFFE6
+TTL: 40
+Proto: 6
+Source: 192.168.1.12
+Destination: 213.239.198.198
+SPort: 35261
+DPort: 80
+Data:
+
+
+accept 5
+IP HEADER
+Version & IHL: 45
+TOS 0
+Length: FFFFFF9D
+ID: FFFFFFE7
+TTL: 40
+Proto: 6
+Source: 192.168.1.12
+Destination: 213.239.198.198
+SPort: 35261
+DPort: 80
+Data:
+GET / HTTP/1.0
+User-Agent: Wget/1.12 (linux-gnu)
+Accept: */*
+Host: xuri.ro
+Connection: Keep-Alive
+
+
+
+accept 6
+IP HEADER
+Version & IHL: 45
+TOS 0
+Length: 34
+ID: FFFF9805
+TTL: 37
+Proto: 6
+Source: 213.239.198.198
+Destination: 192.168.1.12
+SPort: 80
+DPort: 35261
+Data:
+
+
+accept 7
+IP HEADER
+Version & IHL: 45
+TOS 0
+Length: FFFFFFD4
+ID: FFFF9806
+TTL: 37
+Proto: 6
+Source: 213.239.198.198
+Destination: 192.168.1.12
+SPort: 80
+DPort: 35261
+Data:
+HTTP/1.1 200 OK
+Server: nginx/0.8.54
+Date: Wed, 21 Mar 2012 20:41:40 GMT
+Content-Type: text/html
+Connection: close
+X-Powered-By: PHP/5.2.6-1+lenny16
+
+<html>
+	<head>
+		<title>:Xuri.ro - Cute, short, twitter friendly URIs</title>
+		
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+
+		<meta name="description" content="Xuri.ro - te ajuta sa transformi un URL urat si mare, intr-unul mic si dragut, usor de trimis prietenilor, fie si prin SMS.">
+		<meta name="keywords" content="url,twitter,messenger,twitter friendly,messenger friendly,short url,url rewrite,rescriere,scurt,url scurt,link scurt,link">
+		<meta name="copyright" content="(c) 2009 Bogdan Dobrica, http://www.asmallelf.com">
+		<meta name="author" content="Bogdan Dobrica, http://www.asmallelf.com">
+		<meta http-equiv="content-language" content="ro">
+		
+		<link rel="shortcut icon" href="/favicon.ico">
+
+		<style type="text/css">
+			#main { width: 420px; height: 300px; background: url(pics/back.jpg) no-repeat center center; position: relative; }
+			#uglyuri { background: url(pics/uglyuri.jpg) no-repeat center center; width: 360px; height: 60px; position: absolute; top: 90px; left: 30px; }
+			#uglyuri input { border: 0; margin: 28px 10px 0; padding: 0; line-height: 28px; height: 28px; font-size: 28px; width: 340px; }
+			#cutify { background: url(pics/cutify-dw.jpg) no-repeat center center; position: absolute; right: 30px; top: 164px; height: 5
+
+accept 8
+IP HEADER
+Version & IHL: 45
+TOS 0
+Length: 34
+ID: FFFFFFE8
+TTL: 40
+Proto: 6
+Source: 192.168.1.12
+Destination: 213.239.198.198
+SPort: 35261
+DPort: 80
+Data:
+
+
+accept 9
+IP HEADER
+Version & IHL: 45
+TOS 0
+Length: FFFFFFD4
+ID: FFFF9807
+TTL: 37
+Proto: 6
+Source: 213.239.198.198
+Destination: 192.168.1.12
+SPort: 80
+DPort: 35261
+Data:
+0px; width: 180px; display: block; }
+			#cutify img { position: absolute; border: 0; left: 0; top: 0; }
+			
+			#cuteuri { background: url(pics/cuteuri.jpg) no-repeat center center; width: 360px; height: 60px; position: absolute; top: 190px; left: 30px; }
+			#cuteuri input { border: 0; margin: 28px 10px 0; padding: 0; line-height: 28px; height: 28px; font-size: 28px; width: 340px; }
+
+			#besturis { width: 420px; height: 300px; background: url(pics/bestback.jpg) no-repeat center center; position: relative; }
+			#besturis a { color: #f60; }
+			#besturis a:visited { color: #f30; }
+			#besturis a:hover { background: #f60; color: #000; }
+			
+			#lasturis { width: 420px; height: 300px; background: url(pics/lastback.jpg) no-repeat center center; position: relative; }
+			#lasturis a { color: #0d0; }
+			#lasturis a:visited { color: #0a0; }
+			#lasturis a:hover { background: #0d0; color: #000; }
+
+			#randuris { width: 420px; height: 300px; background: url(pics/randback.jpg) no-repeat center center; position: relative; }
+			#randuris a { color: #1cd; }
+			#randuris a:visited { color: #19d; }
+			#randuris a:hover { background: #1cd; color: #000; }
+			
+			#whyuris { width: 420px; height: 300px; background: url(pics/whyback.jpg) no-repeat center center; position: relative; }
+			#whyuris h1 { color: #f4b; margin: 0; padding: 56px 16px 2px; font-size: 11pt; font-family: arial, verdana, sans-serif; }
+			#whyuris span { color: #fff!imp
+
+accept 10
+IP HEADER
+Version & IHL: 45
+TOS 0
+Length: 34
+ID: FFFFFFE9
+TTL: 40
+Proto: 6
+Source: 192.168.1.12
+Destination: 213.239.198.198
+SPort: 35261
+DPort: 80
+Data:
+
+
+accept 11
+IP HEADER
+Version & IHL: 45
+TOS 0
+Length: FFFFFFD4
+ID: FFFF9808
+TTL: 37
+Proto: 6
+Source: 213.239.198.198
+Destination: 192.168.1.12
+SPort: 80
+DPort: 35261
+Data:
+ortant; font-style: italic; font-weight: bold; }
+			#whyuris p { margin: 0; padding: 4px 16px; }
+			#whyuris p, #whyuris p * { font-family: arial, verdana, sans-serif; font-size: 9pt; }
+			#whyuris p a { font-style: italic; }
+			#whyuris p.pblue, #whyuris p.pblue * { color: #1cd; }
+			#whyuris p.porange, #whyuris p.porange * { color: #f60; }
+			#whyuris p.pgreen, #whyuris p.pgreen * { color: #0d0; }
+			#whyuris p.ppink, #whyuris p.ppink * { color: #f4b; }
+			#xother { font-size: 15pt!important; font-weight: bold!important; }
+			#xfooter a { display: inline; margin: 0; padding: 0; }
+			
+			td ul { list-style-type: none; margin: 0; padding: 56px 20px 0; }
+			td ul li { margin: 1px 0; padding: 0; }
+			td li a { display: block; padding: 0 2px; line-height: 20px; height: 20px; overflow: hidden; text-decoration: none; }
+			td li a, td li a * { font-family: arial, verdana, sans-serif; font-weight: normal; font-size: 9pt; }
+		</style>
+		
+		<script type="text/javascript" src="script/moocore.js"></script>
+		<script type="text/javascript" src="script/moomore.js"></script>
+		<script type="text/javascript">
+		function urlencode(str) { return escape(str).replace(/\+/g,'%2B').replace(/%20/g, '+').replace(/\*/g, '%2A').replace(/\//g, '%2F').replace(/@/g, '%40'); }
+		window.addEvent('domready',function(){
+			var req = new Request.JSON({url:'index.php',method:'get', onSuccess: function(x) {
+				$('cuteurl').value = x.url;
+				//$('xot
+
+accept 12
+IP HEADER
+Version & IHL: 45
+TOS 0
+Length: 34
+ID: FFFFFFEA
+TTL: 40
+Proto: 6
+Source: 192.168.1.12
+Destination: 213.239.198.198
+SPort: 35261
+DPort: 80
+Data:
+
+
+accept 13
+IP HEADER
+Version & IHL: 45
+TOS 0
+Length: FFFFFFD4
+ID: FFFF980F
+TTL: 37
+Proto: 6
+Source: 213.239.198.198
+Destination: 192.168.1.12
+SPort: 80
+DPort: 35261
+Data:
+her').set('html', x.out ? (x.out == 1 ? 'Felix-o-metru: un singur Felix!' : 'Felix-o-metru: '+x.out+' Felicsi!') : 'Felix-o-metru: Niciun Felix!');
+				$('xother').set('html', '');
+				$('cuteuri').morph({'opacity':1});
+				}});
+			$('cuteuri').set('morph');
+			$('cutify-up').set('morph');
+			$('cuteuri').setStyles({'opacity':0});
+			$('cutify-up').morph({'opacity':0});
+			$('cutify').addEvent('mouseover',function(e){
+				$('cutify-up').morph({'opacity':1});
+				});
+			$('cutify').addEvent('mouseout',function(e){
+				$('cutify-up').morph({'opacity':0});
+				});
+			$('cutify').addEvent('click',function(e){
+				req.send('uri='+urlencode($('uglyurl').value));
+				$('xother').set('html','Loading ...');
+				});
+			$('uglyurl').addEvent('focus',function(e){
+				$('cuteuri').morph({'opacity':0});
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<center>
+		<table cellspacing="0">
+			<tr>
+				<td>
+						<div id="main">
+							<div  id="uglyuri">
+								<input type="text" id="uglyurl" name="uglyurl" value="http://">
+							</div>
+							<div id="cuteuri">
+								<input type="text" id="cuteurl" name="cuteurl" value="http://xuri.ro/">
+							</div>
+							<a id="cutify" href="#cutify">
+								<img id="cutify-dw" src="pics/cutify-dw.jpg">
+								<img id="cutify-up" src="pics/cutify-up.jpg">
+							</a>
+						</div>
+				</td>
+				<td>
+					<div id="whyuris">
+						<h1>:<span>X</span>uri.ro - URIuri e<span>X</span>tra scurte!</h
+
+accept 14
+IP HEADER
+Version & IHL: 45
+TOS 0
+Length: 34
+ID: FFFFFFEB
+TTL: 40
+Proto: 6
+Source: 192.168.1.12
+Destination: 213.239.198.198
+SPort: 35261
+DPort: 80
+Data:
+
+
+accept 15
+IP HEADER
+Version & IHL: 45
+TOS 0
+Length: FFFFFFD4
+ID: FFFF9810
+TTL: 37
+Proto: 6
+Source: 213.239.198.198
+Destination: 192.168.1.12
+SPort: 80
+DPort: 35261
+Data:
+1>
+						<p class="pblue">Vrei sa-ti postezi pe Twitter ultima poza de pe <a href=
+"http://pitzipoanca.org/2009/02/sub-scara-poze-fac-descul%C8%9Ba-%C8%99i-vantu-mi-adie-o-%C8%9Ba%C8%9Ba/" target="_blank">pitzipoanca.org</a> sau cel mai recent articol din <a href="http://www.gandul.info/distractia/slumdog-millionaire-filmul-care-a-contaminat-planeta-cu-vi-ru-sul-indian.html?8006;3886958" target="_blank">gandul.info</a> despre &quot;Slumdog Millionaire&quot;.</p>
+						<p class="porange">Ambele linkuri sunt <i>SEO</i> friendly, insa aproape deloc <a href="http://www.twitter.com" target="_blank">Twitter</a> friendly, si totul din cauza ca ambele URLuri sunt aproape de limita de 140 de caractere a serviciului, cu 104, respectiv 125 de semne.</p>
+						<p class="pgreen">Folosind <span>X</span>uri vei putea acum reduce dimensiunea unui asemenea monstru la mai putin de 20 de caractere <a href="http://xuri.ro/B" target="_blank">http://xuri.ro/B</a> si <a href="http://xuri.ro/C" target="_blank">http://xuri.ro/C</a>.</p>
+						<p class="ppink">Pe scurt, <span>X</span>uri te ajuta sa transformi un URL urat si mare, intr-unul mic si dragut, usor de trimis prietenilor, chiar si prin SMS.</p>
+						<p class="pblue" id="xother"></p>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+	<div id="lasturis">
+						<ul>
+		<li><a href="/JE" target="_blank" title="Untitled Page"><b>1.</b> http://roz8.com/</a></li>
+		
+							<li><a href="/IE"
+
+accept 16
+IP HEADER
+Version & IHL: 45
+TOS 0
+Length: 34
+ID: FFFFFFEC
+TTL: 40
+Proto: 6
+Source: 192.168.1.12
+Destination: 213.239.198.198
+SPort: 35261
+DPort: 80
+Data:
+
+
+accept 17
+IP HEADER
+Version & IHL: 45
+TOS 0
+Length: FFFFFFD4
+ID: FFFF9811
+TTL: 37
+Proto: 6
+Source: 213.239.198.198
+Destination: 192.168.1.12
+SPort: 80
+DPort: 35261
+Data:
+ target="_blank" title="VOTEAZĂ AICI: Introducerea pedepsei cu moartea - Sunt/Nu sunt de acord. Cristian Tudor Popescu VOTEAZĂ PENTRU - Gandul"><b>2.</b> http://www.gandul.info/news/voteaza-aici-introducerea-pedepsei-cu-moartea-sunt-nu-sunt-de-acord-cristian-tudor-popescu-voteaza-pentru-9374789</a></li>
+		
+							<li><a href="/HE" target="_blank" title="&raquo; curs de imunologie generală (draft) ublo - bogdanel&#039;s (micro)blog"><b>3.</b> http://ublo.ro/2012/01/curs-de-imunologie-generala-draft/</a></li>
+		
+							<li><a href="/GE" target="_blank" title="Gasit corp. Omul lipseste in continuare! | Nutripedia"><b>4.</b> http://nutripedia.ro/2012/01/23/gasit-corp-omul-lipseste-in-continuare/</a></li>
+		
+							<li><a href="/FE" target="_blank" title="5 retete de ceai pentru iarna | Nutripedia"><b>5.</b> http://nutripedia.ro/2012/02/14/5-retete-ceai-iarna/</a></li>
+		
+							<li><a href="/EE" target="_blank" title="Deshidratarea usoara si starea de dispozitie | Nutripedia"><b>6.</b> http://nutripedia.ro/2012/02/24/starea-de-dispozitie-ne-este-afectata-chiar-si-de-o-usoara-deshidratare/</a></li>
+		
+							<li><a href="/DE" target="_blank" title="De pe telefon. 25.02.12 &laquo; : lumea lui voicu"><b>7.</b> http://www.dragosvoicu.ro/2012/02/de-pe-telefon-25-02-12/</a></li>
+		
+							<li><a href="/CE" target="_blank" title="Noul PROFI - Pui intreg CGP - YouTube"><b>8.</b> http://www.youtube.com/watch?v=sTf9AFar0W0</a><
+
+accept 18
+IP HEADER
+Version & IHL: 45
+TOS 0
+Length: 34
+ID: FFFFFFED
+TTL: 40
+Proto: 6
+Source: 192.168.1.12
+Destination: 213.239.198.198
+SPort: 35261
+DPort: 80
+Data:
+
+
+accept 19
+IP HEADER
+Version & IHL: 45
+TOS 0
+Length: FFFFFFD4
+ID: FFFF9812
+TTL: 37
+Proto: 6
+Source: 213.239.198.198
+Destination: 192.168.1.12
+SPort: 80
+DPort: 35261
+Data:
+/li>
+		
+							<li><a href="/BE" target="_blank" title="Maria Dinulescu Tudoran | Cosmin Tudoran - 1/3 Ca$$a Loco"><b>9.</b> http://cosmintudoran.ro/2012/02/18/maria-dinulescu-tudoran/</a></li>
+		
+							<li><a href="/AE" target="_blank" title="VIDEO IPP: Senatorul Crin Antonescu are 0% voturi finale exprimate prin vot electronic in sesiunea parlamentara septembrie - decembrie 2011. Minoritatile si independentii - cea mai buna prezenta la lucrarile Camerei Deputatilor, PDL si UDMR la Senat - Pol"><b>10.</b> http://www.hotnews.ro/stiri-politic-11564691-ipp-senatorul-crin-antonescu-are-0-voturi-finale-exprimate-prin-vot-electronic-sesiunea-septembrie-decembrie-2011-minoritatile-independentii-cea-mai-buna-prezenta-lucrarile-camerei-deputatilor-pdl-udm.htm</a></li>
+						</ul>
+					</div>
+				</td>
+				<td>
+	<div id="besturis">
+						<ul>
+		<li><a href="/C" target="_blank" title="Slumdog Millionaire, filmul care a contaminat planeta cu Vi(ru)sul indian - Gandul"><b>1.</b> http://www.gandul.info/distractia/slumdog-millionaire-filmul-care-a-contaminat-planeta-cu-vi-ru-sul-indian.html?8006;3886958</a></li>
+		
+							<li><a href="/B" target="_blank" title="Sub scară poze fac desculță. Și vântu-mi adie o țâță. | sunt pitzipoancă, deci exist!"><b>2.</b> http://pitzipoanca.org/2009/02/sub-scara-poze-fac-descul%C8%9Ba-%C8%99i-vantu-mi-adie-o-%C8%9Ba%C8%9Ba/</a></li>
+		
+							<li><a href="/i" target="_blank" title="Sou
+
+accept 20
+IP HEADER
+Version & IHL: 45
+TOS 0
+Length: 34
+ID: FFFFFFEE
+TTL: 40
+Proto: 6
+Source: 192.168.1.12
+Destination: 213.239.198.198
+SPort: 35261
+DPort: 80
+Data:
+
+
+accept 21
+IP HEADER
+Version & IHL: 45
+TOS 0
+Length: FFFFFFD4
+ID: FFFF9813
+TTL: 37
+Proto: 6
+Source: 213.239.198.198
+Destination: 192.168.1.12
+SPort: 80
+DPort: 35261
+Data:
+rces: Google In Late Stage Talks To Acquire Twitter (Updated) - washingtonpost.com"><b>3.</b> http://www.washingtonpost.com/wp-dyn/content/article/2009/04/03/AR2009040304363.html</a></li>
+		
+							<li><a href="/k" target="_blank" title="f : dragos voicu 1 36"><b>4.</b> http://www.dragosvoicu.ro/</a></li>
+		
+							<li><a href="/g" target="_blank" title="Muzeul Na&#355;ional de Istorie a Rom&acirc;niei ::: Expozi&#355;ii Temporare ::: Comorile timpului. Civilizaţii din epoca pietrei"><b>5.</b> http://www.mnir.ro/ro/ExpozitiiTemporare/Expozitie.aspx?IDExpozitieTemp=70</a></li>
+		
+							<li><a href="/h" target="_blank" title="adevărata mâncare de ştevie | Razvan Exarhu"><b>6.</b> http://razvan.exarhu.ro/adevarata-mancare-de-stevie/</a></li>
+		
+							<li><a href="/S" target="_blank" title="Redirect to: /concurs/propunerea/5/voteaza"><b>7.</b> http://www.traininguri.ro/concurs/propunerea/5?nota=10</a></li>
+		
+							<li><a href="/e" target="_blank" title=": dragos voicu &raquo; Blog Archive &raquo; Shii, in loc de Wii"><b>8.</b> http://www.dragosvoicu.ro/2009/04/01/shii-in-loc-de-wii/</a></li>
+		
+							<li><a href="/c" target="_blank" title="&raquo; un prieten îmi spune că &laquo;ubog&amp;ra &#8230; ublo - i micro blog"><b>9.</b> http://ublo.ro/2009/04/01/un-prieten-imi-spune-ca-ubogra/</a></li>
+		
+							<li><a href="/b" target="_blank" title="&raquo; win a t-shirt ublo - i micro blog"><b>10.</b> http://ublo.ro
+
+accept 22
+IP HEADER
+Version & IHL: 45
+TOS 0
+Length: 34
+ID: FFFFFFEF
+TTL: 40
+Proto: 6
+Source: 192.168.1.12
+Destination: 213.239.198.198
+SPort: 35261
+DPort: 80
+Data:
+
+
+accept 23
+IP HEADER
+Version & IHL: 45
+TOS 0
+Length: FFFFFF98
+ID: FFFF9814
+TTL: 37
+Proto: 6
+Source: 213.239.198.198
+Destination: 192.168.1.12
+SPort: 80
+DPort: 35261
+Data:
+/2009/03/28/win-a-t-shirt/</a></li>
+						</ul>
+					</div>
+	
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<div id="footer">
+					</div>
+					
+				</td>
+			</tr>
+		</table>
+		</center>
+		<script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script>
+		<script type="text/javascript">try {var pageTracker = _gat._getTracker("UA-7479431-1");pageTracker._trackPageview();} catch(err) {}</script>
+	</body>
+</html>
+
+accept 24
+IP HEADER
+Version & IHL: 45
+TOS 0
+Length: 34
+ID: FFFFFFF0
+TTL: 40
+Proto: 6
+Source: 192.168.1.12
+Destination: 213.239.198.198
+SPort: 35261
+DPort: 80
+Data:
+
+
+accept 25
+IP HEADER
+Version & IHL: 45
+TOS 0
+Length: 34
+ID: FFFF9815
+TTL: 37
+Proto: 6
+Source: 213.239.198.198
+Destinatio

@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -I/usr/include/libnetfilter_queue -lnetfilter_queue -o nfqueue nfqueue.c

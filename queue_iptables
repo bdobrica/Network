@@ -1,0 +1,5 @@
+#!/bin/bash
+iptables -F INPUT
+iptables -A INPUT -p tcp -j NFQUEUE --queue-num 0
+iptables -F OUTPUT
+iptables -A OUTPUT -p tcp -j NFQUEUE --queue-num 0
